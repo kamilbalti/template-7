@@ -1,0 +1,518 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+}
+.bgPhoto{
+    width: 40%;
+    height: 100%;
+    background-image: url("https://www.w3schools.com/w3images/profile_girl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    left: 0;
+}
+.mainDiv{
+    width: 60%;
+    margin-left: auto;
+}
+img{
+    width: 50%;
+}
+.menuIcon{
+    right: 0;
+    position: fixed;
+    font-size: 36px !important;
+    color: #757575;
+    background-color: white;
+    padding: 17px 16px;
+    cursor: pointer;
+    z-index: 10;
+}
+.close{
+    background-color: black;
+    color: white;
+    font-size: 48px !important;
+    padding: 12px;
+}
+.menuIcon:hover{
+    background-color: #bebebe;
+    color: black;
+}
+.hidden{
+    display: none;
+}
+.header{
+    padding: 128px 16px 119px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 980px;
+}
+.myName{
+    font-size: 64px;
+    margin: 31px 0 0;
+}
+.myOccupation{
+    font-size: 15px;
+    margin: 25px 0;
+}
+.downloadBut{
+    padding: 12px 24px;
+    border: none;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin: 9px 0;
+    line-height: 22px;
+    cursor: pointer;
+}
+.downloadBut:hover{
+    background-color: #cacaca;
+}
+.downLogo{
+    font-size: 15px !important;
+}
+.portHead{
+    padding: 46px 0 24px;
+    font-weight: 400;
+    margin: 0 24px;
+    font-size: 30px;
+    color: #757575;
+    border-bottom: 1px solid #eee;
+}
+.portImg{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 14px;
+    padding: 0 16px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.portImg{
+    padding: 6px 8px;
+}
+.aboutDiv{
+    padding: 38px 12px 0;
+}
+.aboutHead{
+    font-size: 30px;
+    color: #757575;
+    font-weight: 100;
+    margin: 0 12px;
+    padding: 46px 0 24px;
+    border-bottom: 1px solid #eee;
+}
+.aboutPara{
+    font-size: 15px;
+    color: #757575;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px 12px 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: justify !important;
+}
+.skillHead{
+    font-size: 24px;
+    color: #757575;
+    font-weight: 100;
+    padding: 34px 24px 20px;
+}
+.allRating{
+    padding: 0 24px;
+}
+.ratingHead{
+    padding: 8px 0;
+    color: #616161;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding: 16px 0 17px;
+}
+.fullBgGray{
+    width: 100% !important;
+    font-size: 15px;
+    background-color: #f1f1f1;
+}
+.width95{
+    width: 95%;
+    background-color: #616161;
+    text-align: center;
+    color: white;
+    padding: 4px 8px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+.width85{
+    width: 85%;
+    background-color: #616161;
+    text-align: center;
+    color: white;
+    padding: 4px 8px;
+    line-height: 1.5;
+}
+.width80{
+    width: 80%;
+    background-color: #616161;
+    text-align: center;
+    color: white;
+    padding: 4px 8px;
+    line-height: 1.5;
+}
+.bgGrayIntroDiv{
+    display: flex;
+    flex-direction: row;
+    background-color: #616161;
+    margin: 39px 24px 32px;
+    color: white;
+    text-align: center;
+    padding: 32px 0;
+}
+.projectIntro{
+    width: 24.99%;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.introNum{
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none !important;
+}
+.introBut{
+    margin: 0 24px;   
+}
+.feedBackDiv{
+    margin: 25px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.reputationHead{
+    font-size: 24px;
+    font-weight: 100;
+    color: #757575;
+    margin: 28px 0;
+}
+.impFeedDiv{
+    display: flex;
+    flex-direction: row;
+    margin: 8.5px 0;
+}
+.firstFeedDiv{
+    margin: 10px 0 8.5px;
+}
+.lastFeedDiv{
+    margin: 29px 0;
+}
+.roundImg{
+    width: 80px;
+    border-radius: 50%;
+}
+.firstRoundImg{
+    width: 80.5px;
+}
+.paraRow{
+    display: flex;
+    flex-direction: row;
+    margin: 17px 0 18px;
+}
+.firstParaRow{
+    margin: 7px 0 18px;
+}
+.paraDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 16px;
+    font-size: 15px;
+    color: #757575;
+}
+.firstParaDiv{
+    margin: 0 15.5px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.occupation{
+    margin: 2px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.priceHead{
+    margin: 37px 24px 30px;
+    font-size: 24px;
+    color: #757575;
+    font-weight: 400;
+}
+.allTableDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 0 16px;
+}
+.table{
+    margin: 0 8px;
+    width: 49.99%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.table:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px 0px, rgba(0, 0, 0, 0.19) 0px 4px 20px 0px;
+}
+.tableChild{
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    text-align: center;
+    padding: 17.8px;
+    font-size: 15px;
+}
+.tableHead{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 35px;
+    padding-bottom: 36px;
+}
+.bgBlackHead{
+    background-color: black;
+}
+.bgGrayHead{
+    background-color: #616161;
+}
+.price{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 13px;
+}
+.monthPara{
+    color: #757575;
+    opacity: 0.6;
+    padding: 2px;
+    padding-bottom: 1px;
+}
+.signUpDiv{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px;
+}
+.signUpBut{
+    border: none;
+    background-color: white;
+    padding: 13px 24px;
+    padding-bottom: 14px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.contactHead{
+    color: #757575;
+    font-weight: 400;
+    margin: 0 24px;
+    margin-top: 48px;
+    padding: 46px 0 24px;
+    font-size: 30px;
+    border-bottom: 1px solid #eee;
+}
+.iconRow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: #757575;
+    padding: 8.5px 0;
+    font-size: 15px;
+}
+.lastIconRow{
+    padding: 8px 0;
+}
+.icon{
+    font-size: 36px !important;
+    color: #757575;
+    margin-right: 20px;
+}
+.allIconRowDiv{
+    padding: 11px 24px 18px;
+}
+.iconPara{
+    padding-bottom: 0.5px;
+}
+.lastIconPara{
+    padding-bottom: 1px;
+}
+.map{
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    padding: 24px;
+    filter: grayscale(75%);
+}
+.iconIntroMainDiv{
+    opacity: 0.6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;   
+    padding: 66px 64px 62px;
+}
+.allIconDiv{
+    font-size: 24px !important;
+}
+.para{
+    margin: 20px;
+    font-size: 15px;
+}
+b{
+    text-decoration: underline;
+    font-weight: 100;
+}
+.input{
+    padding: 17px 8px 18.5px;
+    font-size: 15px;
+    margin: 7.5px 0;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.formPara{
+    padding: 19px 24px;
+    padding-bottom: 0.5px;
+    font-size: 15px;
+    color: #757575;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    color: #757575;
+    padding: 10px 24px 80px;
+    font-family: "Montserrat", sans-serif;
+}
+.sendBut{
+    font-family: "Montserrat", sans-serif;
+    margin: 8px 0;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    padding: 13px 24px 14px;
+    border: none;
+    font-size: 15px;
+}
+.sendBut:hover{
+    background-color: rgb(204, 204, 204);
+}
+.navbar{
+    position: fixed;
+    right: 0;
+    background-color: black;
+    width: 60%;
+    height: 100%;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    padding: 150px;
+}   
+.hiddenNavbar{
+    display: none !important;
+}
+
+.navLink{
+    cursor: pointer;    
+    padding: 13px;
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+.navLink:hover{
+    color: white;
+}
+@media screen and (max-width: 1000px){
+    .header{
+        /* max-width: 850px; */
+        margin-left: auto;
+        margin-right: auto;
+        padding: 128px 40px 112px;
+    }
+    .bgPhoto{
+        display: none;
+    }
+    .mainDiv{
+        width: 100%;
+    }
+    .hidden{
+        display: flex;
+        width: 60%;
+    }
+    .myOccupation{
+        margin-bottom: 18px;
+    }
+    .downloadBut{
+        margin: 16px 0;
+    }
+    .introBut{
+        margin: 0 24px;
+    }
+}
+@media screen and (max-width: 600px){
+    .portImg{
+        width: 100% !important;
+    }
+    .column{
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .hidden{
+        width: 100%;
+    }
+    .bgGrayIntroDiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+    .projectIntro{
+        width: 100%;
+        padding: 16px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .feedPara{
+        line-height: 1.6;
+        text-align: justify;
+    }
+    .firstFeedDiv{
+        margin: 0 0 29px;
+    }
+    .reputationHead{
+        margin: 28px 0 32px;
+    }
+    .allTableDiv{
+        display: flex;
+        flex-direction: column;
+        padding: 0 24px;
+    }
+    .table{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    .contactHead{
+        margin-top: 16px;
+    }
+    .tableChild{
+        padding-top: 17px;
+    }
+}

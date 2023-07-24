@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./template7.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="bgPhoto"></div>
+        <div id="navbar" class="hiddenNavbar navbar">
+            <a onclick="hideNavbar()" class="navLink" href="#">Home</a>
+            <a onclick="hideNavbar()" class="navLink" href="#portfolio">Portfolio</a>
+            <a onclick="hideNavbar()" class="navLink" href="#about">About</a>
+            <a onclick="hideNavbar()" class="navLink" href="#contact">Contact</a>
+        </div>
+        <i id="removeIcon" onclick="hideNavbar()" class="hiddenNavbar menuIcon close fa fa-remove"></i>
+        <i id="menuIcon" onclick="showNavbar()" class="fa fa-bars menuIcon"></i>
+        <div class="header">
+            <h1 class="myName">Jane Doe</h1>
+            <p class="myOccupation">Photographer and Web Designer.</p>
+            <img class="hidden" src="https://www.w3schools.com/w3images/profile_girl.jpg"/>
+            <button class="downloadBut"><i class="downLogo fa fa-download"></i> Download Resume</button>
+        </div>
+        <h1 id="portfolio" class="portHead">My Portfolio</h1>
+        <div class="row">
+            <div class="column">
+                <img class="portImg" src="https://www.w3schools.com/w3images/wedding.jpg"/>
+                <img class="portImg" src="https://www.w3schools.com/w3images/rocks.jpg"/>
+                <img class="portImg" src="https://www.w3schools.com/w3images/sailboat.jpg"/>
+            </div>
+            <div class="column">
+                <img class="portImg" src="https://www.w3schools.com/w3images/underwater.jpg"/>
+                <img class="portImg" src="https://www.w3schools.com/w3images/chef.jpg"/>
+                <img class="portImg" src="https://www.w3schools.com/w3images/wedding.jpg"/>
+                <img class="portImg" src="https://www.w3schools.com/w3images/p6.jpg"/>
+            </div>
+        </div>
+        <div class="aboutDiv">
+            <h1 id="about" class="aboutHead">About</h1>
+            <p class="aboutPara">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+        </div>
+        <h1 class="skillHead">My Skills</h1>
+        <div class="allRating">
+            <h3 class="ratingHead">Photography</h3>
+            <div class="fullBgGray"><p class="width95">95%</p></div>
+            <h3 class="ratingHead">Web Design</h3>
+            <div class="fullBgGray"><p class="width85">85%</p></div>
+            <h3 class="ratingHead">Photoshop</h3>
+            <div class="fullBgGray"><p class="width80">80%</p></div>
+        </div>
+        <div class="bgGrayIntroDiv">
+            <p class="projectIntro"><b class="introNum">14+</b><br />Partners</p>
+            <p class="projectIntro"><b class="introNum">55+</b><br />Projects Done</p>
+            <p class="projectIntro"><b class="introNum">89+</b><br />Happy Clients</p>
+            <p class="projectIntro"><b class="introNum">150+</b><br />Meetings</p>
+        </div>
+        <button class="downloadBut introBut"><i class="downLogo fa fa-download"></i> Download Resume</button>
+        <div class="feedBackDiv">
+            <h1 class="reputationHead">My Reputation</h1>
+            <div class="impFeedDiv firstFeedDiv">
+                <img class="roundImg firstRoundImg" src="https://www.w3schools.com/w3images/avatar_smoke.jpg"/>
+                <div class="paraDiv firstParaDiv">
+                    <div class="paraRow firstParaRow">
+                        <h2 class="name">Chandler Bing.</h2>
+                        <p class="occupation">Web Designer.</p>
+                    </div>
+                    <p class="feedPara">Jane Doe is just awesome. I am so happy to have met her!</p>
+            </div>
+            </div>
+            <div class="impFeedDiv">
+                <img class="roundImg" src="https://www.w3schools.com/w3images/bandmember.jpg"/>
+                <div class="paraDiv">
+                    <div class="paraRow">
+                        <h2 class="name">Chris Fox.</h2>
+                        <p class="occupation">CEO at Mighty Schools.</p>
+                    </div>
+                    <p class="feedPara">Jane Doe saved us from a web disaster.</p>
+            </div>
+            </div>
+            <div class="impFeedDiv lastFeedDiv ">
+                <img class="roundImg" src="https://www.w3schools.com/w3images/avatar_g2.jpg"/>
+                <div class="paraDiv">
+                    <div class="paraRow">
+                        <h2 class="name">Rebecca Flex.</h2>
+                        <p class="occupation">CEO at Company.</p>
+                    </div>
+                    <p class="feedPara">No one is better than Jane Doe.</p>
+            </div>
+            </div>
+        </div>
+        <h1 class="priceHead">My Price</h1>
+        <div class="allTableDiv">
+            <div class="table">
+                <h1 class="tableHead bgGrayHead">Basic</h1>
+                <p class="tableChild">Web Design</p>
+                <p class="tableChild">Photography</p>
+                <p class="tableChild">5GB Storage</p>
+                <p class="tableChild">Mail Support</p>
+                <div class="tableChild priceDiv">
+                    <h2 class="price">$ 10</h2>
+                    <p class="monthPara">per month</p>
+                </div>
+                <div class="signUpDiv">
+                    <button class="signUpBut">Sign Up</button>
+                </div>
+            </div>
+            <div class="table">
+                <h1 class="tableHead bgBlackHead">Pro</h1>
+                <p class="tableChild">Web Design</p>
+                <p class="tableChild">Photography</p>
+                <p class="tableChild">50GB Storage</p>
+                <p class="tableChild">Endless Support</p>
+                <div class="tableChild priceDiv">
+                    <h2 class="price">$ 25</h2>
+                    <p class="monthPara">per month</p>
+                </div>
+                <div class="signUpDiv">
+                    <button class="signUpBut">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <h1 id="contact" class="contactHead">Contact Me</h1>
+        <div class="allIconRowDiv">
+            <div class="iconRow">
+                <i class="icon fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
+                <p class="iconPara"> Chicago, US</p>
+            </div>
+            <div class="iconRow">
+                <i class="icon fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>
+                <p class="iconPara"> Phone: +00 151515</p>
+            </div>
+            <div class="iconRow lastIconRow">
+                <i class="icon fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+                <p class="iconPara lastIconPara"> Email: mail@mail.com</p>
+            </div>
+        </div>
+        <img class="map" src="https://www.w3schools.com/w3images/map.jpg"/>
+        <p class="formPara">Lets get in touch. Send me a message:</p>
+        <div class="form">
+            <input class="input" placeholder="Name"/>
+            <input class="input" placeholder="Email"/>
+            <input class="input" placeholder="Subject"/>
+            <input class="input" placeholder="Message"/>
+            <button class="sendBut"><i class="sendLogo fa fa-paper-plane"></i> SEND MESSAGE</button>
+        </div>
+        <div class="iconIntroMainDiv">
+            <div class="allIconDiv">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+            <p class="para">Powered by <b>w3.css</b></p>
+        </div>
+    </div>
+</body>
+<script>
+    function showNavbar(){
+        document.getElementById("navbar").className = "navbar";
+        document.getElementById("menuIcon").className += " hiddenNavbar";
+        document.getElementById("removeIcon").className = "menuIcon close fa fa-remove";
+    }
+    function hideNavbar(){
+        document.getElementById("navbar").className = "hiddenNavbar";
+        document.getElementById("removeIcon").className += " hiddenNavbar";
+        document.getElementById("menuIcon").className = "fa fa-bars menuIcon";
+    }
+</script>
+</html>
