@@ -8,14 +8,11 @@
 }
 body, h1, h2, h3{
     font-family: "Montserrat", sans-serif;
-    /* line-height: 1.5; */
     -webkit-text-size-adjust: 100%;
     padding-right: 0.5px;
 }
 img{
     block-size: fit-content;
-    /* object-fit: contain; */
-    /* box-sizing: fit-content; */
 }
 .bgPhoto{
     width: 40%;
@@ -30,6 +27,10 @@ img{
 .mainDiv{
     width: 60%;
     margin-left: auto;
+}
+.mainChildDiv{
+    max-width: 1028px;
+    margin: 0 auto;
 }
 img{
     width: 50%;
@@ -62,17 +63,18 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 980px;
     text-align: center;
 }
 .myName{
     font-size: 64px;
-    margin: 22px 0 0;
+    margin: 23px 0 0;
+    margin-left: 1px;
     line-height: 1.48;
 }
 .myOccupation{
     font-size: 15px;
-    margin: 18px 0;
+    margin: 15px 0 23px;
+    line-height: 1.48;
 }
 .downloadBut{
     padding: 12px 24px;
@@ -365,7 +367,6 @@ img{
 }
 .map{
     width: 100%;
-    max-width: auto;
     height: auto;
     padding: 24px;
     filter: grayscale(75%);
@@ -461,7 +462,6 @@ b{
 }
 @media screen and (max-width: 1000px){
     .header{
-        /* max-width: 850px; */
         margin-left: auto;
         margin-right: auto;
         padding: 128px 40px 112px;
@@ -536,10 +536,6 @@ b{
     }
     .tableChild{
         padding-top: 17px;
-    }
-    .mainDiv{
-        /* padding-left: 1px; */
-        /* width: 100%; */
     }
 }
 @media screen and (max-width: 330px)
