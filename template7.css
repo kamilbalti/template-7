@@ -206,7 +206,7 @@ img{
     margin: 0 24px;   
 }
 .feedBackDiv{
-    margin: 25px 24px;
+    margin: 25px;
     display: flex;
     flex-direction: column;
 }
@@ -215,6 +215,7 @@ img{
     font-weight: 100;
     color: #757575;
     margin: 28px 0;
+    margin-right: 0;
 }
 .impFeedDiv{
     display: flex;
@@ -228,8 +229,10 @@ img{
     margin: 29px 0;
 }
 .roundImg{
+    float: left;
     width: 80px;
     border-radius: 50%;
+    margin-right: 17px;
 }
 .firstRoundImg{
     width: 80.5px;
@@ -257,11 +260,22 @@ img{
     font-size: 18px;
     font-weight: 400;
     color: black;
+    line-height: 1.5;
+    padding-right: 16px;
 }
 .occupation{
-    margin: 2px 20px;
-    display: flex;
-    flex-direction: row;
+    text-align: justify;
+    color: #757575;
+    font-size: 15px;
+    margin-top: 14px;
+
+}
+.feedPara{
+    line-height: 1.5;
+    color: #757575;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 15px;
 }
 .priceHead{
     margin: 37px 24px 30px;
@@ -378,7 +392,7 @@ img{
     align-items: center;
     justify-content: center;
     background-color: #f1f1f1;   
-    padding: 66px 64px 62px;
+    padding: 66px 0 62px;
 }
 .allIconDiv{
     font-size: 24px !important;
@@ -547,9 +561,9 @@ b{
     .tableChild{
         padding: 18px;
     }
-    .occupation{
+    /* .occupation{
         margin: 0;
-    }
+    } */
     .paraDiv{
         margin-right: 0;
     }
